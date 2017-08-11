@@ -1,0 +1,18 @@
+#bmi_calc_wrap label { font-size: 80%; }
+#bmi_calc_results { background: #92BFDD; padding: 5px 10px; font-size: 80%; }
+#bmi_calc_form input[type=number]::-webkit-inner-spin-button, 
+#bmi_calc_form input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#bmi_calc_form input[type=number] {
+  -moz-appearance: textfield;
+  width: 35px;
+}
+#bmi_calc_button {
+  display: inline-block;
+  padding: 2px 10px !important;
+  font-size: 80%;
+  border: 1px solid #92BFDD;
+  margin: 10px 0;
+  }
